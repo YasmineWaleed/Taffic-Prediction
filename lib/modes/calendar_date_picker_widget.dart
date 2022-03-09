@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart' hide CalendarDatePicker;
 import 'package:flutter/painting.dart';
-import 'package:nepali_date_picker/nepali_date_picker.dart';
+//import 'package:nepali_date_picker/nepali_date_picker.dart';
+//export "package:busgo/modes/nepali_date_picker.dart";
+
 import 'package:nepali_utils/nepali_utils.dart';
+
+import '../nepali_date_picker.dart';
+
+
 
 /// Calendar Picker Example
 class CalendarDatePickerWidget extends StatelessWidget {
@@ -49,7 +55,7 @@ class CalendarDatePickerWidget extends StatelessWidget {
                       width: 6,
                       height: 6,
                       decoration: BoxDecoration(
-                          shape: BoxShape.circle, color: Colors.blueGrey),
+                          shape: BoxShape.circle, color: Colors.purple),
                     ),
                   )
               ],

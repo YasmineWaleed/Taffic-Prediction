@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:nepali_date_picker/nepali_date_picker.dart';
+//import 'package:nepali_date_picker/nepali_date_picker.dart';
 import 'package:nepali_utils/nepali_utils.dart';
+
+import '../nepali_date_picker.dart';
 
 /// Date Picker Example
 class DatePickerWidget extends StatefulWidget {
